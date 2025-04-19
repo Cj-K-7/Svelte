@@ -1,0 +1,14 @@
+{
+  "name": "svelte_ui",
+  "version": "1.0.0",
+  "description": "UI components",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "echo 'Add your build script here'",
+    "test": "echo 'Add your test script here'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}

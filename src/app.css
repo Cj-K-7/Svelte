@@ -1,0 +1,97 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  color-scheme: light dark;
+
+  /* MARK: Colors 
+  */
+  --primary: #0070f3;
+  --primary-light: #82b4ff;
+  --primary-dark: #1a73e8;
+  --on-primary: #ffffff;
+  --secondary: #f55a00;
+  --secondary-light: #ff8c42;
+  --secondary-dark: #c41c00;
+  --on-secondary: #ffffff;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #212121;
+    background-color: #ffffff;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color: #ffffff;
+    background-color: #212121;
+  }
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+/* MARK: Typography 
+    - This section defines the typography styles for the application.
+    - It includes font sizes, weights, and margins for different heading levels (h1 to h6) and paragraphs (p).
+    - The mark element is styled to highlight text with a specific color and background.
+*/
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 0;
+}
+h4 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+h5 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+h6 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+mark {
+  font-weight: 700;
+  color: var(--primary);
+  background-color: transparent;
+}
